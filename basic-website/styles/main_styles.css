@@ -1,0 +1,71 @@
+body{
+    color: rgb(136,132,132)
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    color: whitesmoke;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+li{
+    float:left
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    background-color: #f1f1f1;
+    padding: 9px;
+}
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    background-color: #f1f1f1;
+    padding: 9px;
+}
+li a:hover{
+    background-color: pink;
+}
+#home-info{
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    /* float: left; */
+}
+#emma-picture{
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    /* float:left; */
+}
+#emma-text{
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    /* float:left; */
+}
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    background-color: #f1f1f1;
+    padding: 9px;
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    background-color: #f1f1f1;
+    padding: 9px;
+}
