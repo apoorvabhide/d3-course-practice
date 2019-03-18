@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #cedeec;
+}
+
+#container{
+    height: 500px;
+    width: 300px;
+    margin: 100px auto;
+    background: cadetblue;
+    border-radius: 20px;
+    /* padding: 12px; */
+}
+
+h1{
+    background: gray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    padding: 10px 100px;
+}
+
+p{
+    padding-left: 20px;
+}
+form input{
+    width: 90px;
+}
+input{
+    padding-left: 20px;
+}
+#amt{
+    font-size: 13px;
+    color: rgb(179,76,76);
+    background-color: #d3cad3;
+    padding: 5px 5px 8px 8px;
+}
+
+#amt:focus{
+    background: #ffffff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+#people{
+    width: 60%;
+    font-size: 13px;
+    color: rgb(179,76,76);
+    background-color: #d3cad3;
+    padding: 5px 5px 8px 8px;
+}
+#serviceId{
+    padding: 8px 8px 10px 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+#calculate{
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    outline: none;
+    border-radius: 5 px;
+    width: 200px;
+    height: 50px;
+    background: #AD133a;
+    color: white;
+}
+
+#people{
+    padding: 8px 8px 10px 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+button:hover{
+    background: #4c2827;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+
+#totalTip{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#totalTip::before{
+    content: "Tip Amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
