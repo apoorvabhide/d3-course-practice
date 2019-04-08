@@ -1,0 +1,31 @@
+.canva{
+    margin: auto;
+    display: block;
+}
+.area{
+    fill: rgb(91,195,236);
+}
+g.tick text{
+    font-size: 14px;
+}
+.line{
+    fill: none;
+    stroke:blue;
+    stroke-width: 3px;
+}
+.circle{
+    fill:blueviolet;
+}
+g.tick line{
+    color:darkgrey;
+}
+div.tooltip{
+    position: absolute;
+    text-align: left;
+    width: 100px;
+    height: 110px;
+    padding: 2px;
+    font: 12px Helvetica,sans-serif;
+    background:lightskyblue;
+    border:0px;
+}
